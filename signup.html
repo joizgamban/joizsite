@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JOIZ WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="LogoMakr_2l7YJB.png">
+			</div>
+
+			
+			<div class="log">
+				<h3>CREATE YOUR ACCOUNT</h3>
+				<form method="post" action="signup.php"></form>
+					<input type="text" name="username" placeholder="USERNAME" max="20" class="usern" required><br>
+					<input type="text" name="email" placeholder="EMAIL" class="email" required><br>
+					<input type="password" name="password" placeholder="PASSWORD" id="myInput" class="pw" max="15" required><br>
+					<input type="checkbox" onclick="myFunction()" class="showpw"><h5 class="showpwtxt">SHOW PASSWORD</h5>
+					<input type="submit" name="submit" value="SIGN UP" class="signupbtn">
+
+		<script>
+			function myFunction() {
+ 				 var x = document.getElementById("myInput");
+  				if (x.type === "password") {
+    			   x.type = "text";
+  				} else {
+    			   x.type = "password";
+  				}
+			}
+		</script>
+				</form>
+			</div>
+
+			<div class="button">
+				<a href="main.html" class="btn">HOME</a>
+				<a href="login.html" class="btn">LOG IN</a>
+			</div>
+		</div>
+	</header>
+</body>
+</html>

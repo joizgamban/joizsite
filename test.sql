@@ -1,0 +1,10 @@
+  "database": "joizsite",
+  "dialect": "MySQL",
+  "id": "joiz|MySQL|localhost|joizsite",
+  "isActive": true,
+  "isConnected": true,
+  "name": "joiz",
+  "password": "joizgamban12",
+  "port": 3306,
+  "server": "localhost",
+  "username": "joiz"

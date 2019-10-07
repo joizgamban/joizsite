@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JOIZ WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="LogoMakr_2l7YJB.png">
+			</div>
+
+			<div class="log">
+				<h3>LOG IN TO JOIZ WEBSITE</h3>
+				<form method="POST" action="login.php">
+					<input type="text" name="username" placeholder="USERNAME" max="20" class="usern"><br>
+					<input type="password" name="password" placeholder="PASSWORD" id="myInput" class="pw" max="15"><br>
+					<input type="checkbox" onclick="myFunctionn()" class="showpw"><h5 class="showpwtxt">SHOW PASSWORD</h5>
+					<button class="loginbtn" onclick="myFunction()">LOGIN</button>
+
+		<script>
+			function myFunctionn() {
+ 				 var x = document.getElementById("myInput");
+  				if (x.type === "password") {
+    			   x.type = "text";
+  				} else {
+    			   x.type = "password";
+  				}
+			}
+
+			function myFunction() {
+  				location.replace("joizsite/welcome.html")
+			}
+		</script>
+				</form>
+			</div>
+
+			<div class="button">
+				<a href="main.html" class="btn">HOME</a>
+				<a href="signup.html" class="btn">SIGN UP</a>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
