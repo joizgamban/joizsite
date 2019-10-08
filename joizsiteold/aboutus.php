@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?>
+
 <html>
 <head>
 	<title>JOIZ WEBSITE</title>
-	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>

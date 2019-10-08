@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://backgrounddownload.com/wp-content/uploads/2018/09/professional-images-for-website-background-5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
